@@ -7,7 +7,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 :root {
   --font-main: 'Inter', sans-serif;
-  
+  .toggle-sidebar-mobile {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  width: 44px;
+  height: 44px;
+  background-color: var(--text);
+  color: var(--bg);
+  border: none;
+  border-radius: 0.75rem;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+body.dark .toggle-sidebar-mobile {
+  background-color: var(--text-dark);
+  color: var(--bg-dark);
+}
+
+.toggle-sidebar-mobile:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+/* Hamburger Icon */
+.toggle-sidebar-mobile .bar {
+  width: 22px;
+  height: 2px;
+  background-color: currentColor;
+  position: relative;
+}
+
+.toggle-sidebar-mobile .bar::before,
+.toggle-sidebar-mobile .bar::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  background-color: currentColor;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.toggle-sidebar-mobile .bar::before {
+  top: -6px;
+}
+.toggle-sidebar-mobile .bar::after {
+  top: 6px;
+}
+
   /* Light Theme */
   --bg: #f9f9fb;
   --text: #1f1f1f;

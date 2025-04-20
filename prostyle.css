@@ -382,18 +382,26 @@ body.dark-mode .video-container {
   box-shadow: 0 12px 32px rgba(255, 255, 255, 0.08);
 }
 .kt-portlet__body .card mt-3 {
-  display: none; /* Ẩn abc_n nếu có mặt trong abc_i */
+  display: none; /*  */
 }
 @media (max-width: 768px) {
   .kt-portlet__body {
-    padding-left: 1rem !important;  /* 16px */
-    padding-right: 1rem !important;
+    padding-left: 0.5rem !important;  /* 16px */
+    padding-right: 0.5rem !important;
+  }
+  .col-xl-12 col-md-12 {
+    padding-left: 0.5rem !important;  /* 16px */
+    padding-right: 0.5rem !important;
+  }
+ .row d-flex justify-content-center {
+    padding-left: 0.5rem !important;  /* 16px */
+    padding-right: 0.5rem !important;
   }
 
   .kt-portlet {
     margin-left: 0 !important;
     margin-right: 0 !important;
-    border-radius: 1rem; /* Giữ vẻ hiện đại */
+    border-radius: 0.5rem; /* Giữ vẻ hiện đại */
   }
 
   .kt-container, .main-wrapper {

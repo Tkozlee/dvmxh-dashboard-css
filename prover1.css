@@ -381,10 +381,11 @@ body.dark .action-btn {
 body.dark-mode .video-container {
   box-shadow: 0 12px 32px rgba(255, 255, 255, 0.08);
 }
-.kt-portlet__body .card mt-3 {
+
+@media (max-width: 768px) {
+.card mt-3 .card-body{
   display: none; /*  */
 }
-@media (max-width: 768px) {
   .kt-portlet__body {
     padding-left: 0.5rem !important;  /* 16px */
     padding-right: 0.5rem !important;

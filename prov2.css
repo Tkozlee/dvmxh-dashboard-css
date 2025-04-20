@@ -383,8 +383,14 @@ body.dark-mode .video-container {
 }
 
 @media (max-width: 768px) {
-.card mt-3 .card-body{
-  display: none; /*  */
+.card .card-body {
+  display: none !important;
+}
+.card .row {
+  display: none !important;
+}
+.row .card {
+  display: none !important;
 }
   .kt-portlet__body {
     padding-left: 0.5rem !important;  /* 16px */

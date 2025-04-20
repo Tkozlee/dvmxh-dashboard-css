@@ -105,6 +105,16 @@ h1, h2, h3 {
   transition: all 0.3s ease;
 }
 
+/* Responsive cho mobile */
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem !important; /* Giảm padding trên mobile */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+
 body.dark .card {
   background-color: var(--card-bg-dark);
   box-shadow: 0 15px 30px var(--shadow-dark);

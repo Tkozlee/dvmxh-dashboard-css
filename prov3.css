@@ -384,13 +384,25 @@ body.dark-mode .video-container {
 
 @media (max-width: 768px) {
 .card .card-body {
-  display: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  border: none !important;
 }
 .card .row {
-  display: none !important;
+ padding: 0 !important;
+  margin: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  border: none !important;
 }
 .row .card {
-  display: none !important;
+ padding: 0 !important;
+  margin: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  border: none !important;
 }
   .kt-portlet__body {
     padding-left: 0.5rem !important;  /* 16px */

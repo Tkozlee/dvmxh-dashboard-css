@@ -267,7 +267,7 @@ body.dark_mode .kt-portlet {
   margin-bottom: 2rem;
 }
 
-body.dark_mdoe .kt-portlet {
+body.dark_mode .kt-portlet {
   background-color: var(--card-bg-dark);
   color: var(--text-dark);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);

@@ -571,4 +571,13 @@ body.dark_mode .select2-selection__rendered {
 
 body.dark_mode .kt-subheader {
   background-color: #333333 !important;  
+
+}
+body.dark_mode .select2-selection__rendered, 
+body.dark_mode .select2-results  {
+  background-color: #333333 !important;  
+}
+body.dark_mode .select2-search__field {
+  background-color: #4e4e4e !important;
+}
 }

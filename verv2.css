@@ -559,3 +559,6 @@ body.dark_mode .kt-portlet__head-title:hover {
 body.dark_mode .kt-portlet__head-title::after {
   background-color: #81cfff;
 }
+body.dark_mode .text-intro-payment {
+  color: #fff;
+}

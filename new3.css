@@ -583,3 +583,8 @@ body.dark_mode .select2-search__field {
 body.dark_mode .form-control {
   background-color: #161616 !important;
 }
+body.dark_mode .server-info {
+  background-color: #666666 !important;
+  color: #fff;
+  border-color: #444;
+}

@@ -580,4 +580,7 @@ body.dark_mode .select2-results  {
 body.dark_mode .select2-search__field {
   background-color: #4e4e4e !important;
 }
+body.dark_mode .form-control {
+  background-color: #161616 !important;
+}
 

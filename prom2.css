@@ -429,7 +429,7 @@ body.dark_mode {
 
 /* Table Wrapper */
 .table {
-  width: 115%;
+  width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   background-color: var(--table-bg);

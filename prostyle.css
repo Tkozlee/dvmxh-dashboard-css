@@ -408,3 +408,66 @@ body.dark-mode .video-container {
     padding: 0 !important;
   }
 }
+/* Biến toàn cục nếu bạn dùng light/dark mode */
+:root {
+  --table-bg: #ffffff;
+  --table-text: #1f2937;
+  --thead-bg: #f9fafb;
+  --thead-text: #111827;
+  --border-color: rgba(0, 0, 0, 0.05);
+  --row-hover: rgba(0, 0, 0, 0.03);
+}
+
+body.dark-mode {
+  --table-bg: #1e1e2f;
+  --table-text: #e5e7eb;
+  --thead-bg: #2c2c3f;
+  --thead-text: #f3f4f6;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --row-hover: rgba(255, 255, 255, 0.05);
+}
+
+/* Table Wrapper */
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: var(--table-bg);
+  color: var(--table-text);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+/* Table Head */
+.table thead {
+  background-color: var(--thead-bg);
+  color: var(--thead-text);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.table thead th {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Table Body Rows */
+.table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+  background-color: var(--row-hover);
+}
+
+/* Table Cells */
+.table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: middle;
+}

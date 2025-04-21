@@ -419,7 +419,7 @@ body.dark_mode .video-container {
 }
 
 body.dark_mode {
-  --table-bg: #1e1e2f;
+  --table-bg:  #333333;
   --table-text: #e5e7eb;
   --thead-bg: #2c2c3f;
   --thead-text: #f3f4f6;

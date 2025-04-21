@@ -601,3 +601,17 @@ body.dark_mode .collapse-content {
 body.dark_mode .collapse-toggle {
   background-color: #363636 !important;  
 }
+body.dark_mode .kt-menu__link-icon { 
+  color: #fff;
+}
+body.dark_mode .kt-menu__item   {
+  background-color: #262626 !important;
+  color: #fff;
+}
+
+body.dark_mode .kt-aside__brand ,
+body.dark_mode .kt-menu__section ,
+body.dark_mode .kt-menu__nav 
+{
+    background-color: #161616;
+} 

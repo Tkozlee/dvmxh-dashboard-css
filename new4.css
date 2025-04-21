@@ -421,7 +421,7 @@ body.dark_mode .video-container {
 body.dark_mode {
   --table-bg:  #333333;
   --table-text: #e5e7eb;
-  --thead-bg: #363636;
+  --thead-bg: #161616;
   --thead-text: #f3f4f6;
   --border-color: rgba(255, 255, 255, 0.1);
   --row-hover: rgba(255, 255, 255, 0.05);

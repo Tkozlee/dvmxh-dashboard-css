@@ -593,3 +593,11 @@ body.dark_mode .card-header {
   background-color: #333333 !important;  
   color: #fff;
 }
+body.dark_mode .collapse-content {
+  background-color: #b0aeae !important;
+  color: #fff;
+}
+
+body.dark_mode .collapse-toggle {
+  background-color: #363636 !important;  
+}

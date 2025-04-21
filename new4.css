@@ -331,7 +331,7 @@ body.dark_mode .action-btn {
 .video-container {
   position: relative;
   width: 100%;
-  padding-bottom: 177.78%; /* 9:16 */ 
+  padding-bottom: 100.78%; /* 9:16 */ 
   height: 0;
   overflow: hidden;
   border-radius: 1rem;
@@ -352,10 +352,10 @@ body.dark_mode .action-btn {
   border-radius: 1rem;
   object-fit: cover;
 }
-.card-body embed-container {
+.embed-container {
   position: relative;
   width: 100%;
-  padding-bottom: 177.78%; /* 9:16 */ 
+  padding-bottom: 100.78%; /* 9:16 */ 
   height: 0;
   overflow: hidden;
   border-radius: 1rem;

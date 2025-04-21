@@ -611,7 +611,8 @@ body.dark_mode .kt-menu__item   {
 
 body.dark_mode .kt-aside__brand ,
 body.dark_mode .kt-menu__section ,
-body.dark_mode .kt-menu__nav 
+body.dark_mode .kt-menu__nav ,
+body.dark_mode .kt-footer
 {
     background-color: #161616;
 } 

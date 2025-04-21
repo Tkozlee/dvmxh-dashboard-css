@@ -589,3 +589,7 @@ body.dark_mode .server-info {
   color: #fff;
   border-color: #444;
 }
+body.dark_mode .card-header {
+  background-color: #333333 !important;  
+  color: #fff;
+}

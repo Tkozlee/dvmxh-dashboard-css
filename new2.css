@@ -562,3 +562,10 @@ body.dark_mode .kt-portlet__head-title::after {
 body.dark_mode .text-intro-payment {
   color: #fff;
 }
+body.dark_mode .kt-header__topbar {
+  background-color: #262626 !important;
+}
+
+body.dark_mode .kt-subheader {
+  background-color: #333333 !important;  
+}

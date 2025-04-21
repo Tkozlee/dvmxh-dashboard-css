@@ -605,7 +605,7 @@ body.dark_mode .kt-menu__link-icon {
   color: #fff;
 }
 body.dark_mode .kt-menu__item ,
-body.dark #kt_header {
+body.dark_mode #kt_header {
   background-color: #262626 !important;
   color: #fff;
 }

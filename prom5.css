@@ -706,3 +706,6 @@ body.dark_mode .swal2-success-fix {
 body.dark_mode ol[style] {
   color: #f3f4f6 !important;
 }
+body.dark_mode .kt-widget__label {
+     color: #fff!important ;
+}

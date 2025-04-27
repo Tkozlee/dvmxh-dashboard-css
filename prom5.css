@@ -703,3 +703,6 @@ body.dark_mode .swal2-success-circular-line-right,
 body.dark_mode .swal2-success-fix {
   background-color: #363636 !important;
 }
+body.dark_mode ol[style] {
+  color: #f3f4f6 !important;
+}

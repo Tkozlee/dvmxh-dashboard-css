@@ -709,18 +709,44 @@ body.dark_mode ol[style] {
 body.dark_mode .kt-widget__label {
      color: #fff!important ;
 }
+:root {
+  --light-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);  
+  --dark-shadow: 0 2px 8px rgba(255, 255, 255, 0.3);  
+
+
 button {
+  background-color: #4a4a4a; 
+  color: #fff; 
   border: none;  
-  padding: 12px 24px;  
+  padding: 12px 24px; 
+  border-radius: 8px;  
+  box-shadow: var(--light-shadow); 
+  transition: all 0.3s ease;
+}
+body:not(.dark_mode) button {
+  box-shadow: var(--light-shadow);  
+}
+body.dark_mode button {
+  box-shadow: var(--dark-shadow); 
+}
+button:hover {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.4); 
+  transform: translateY(-2px);  
+}
+button:active {
+  transform: translateY(0); 
+}
+.icon {
+  border: none;  
   border-radius: 8px; 
   box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3); 
   transition: all 0.3s ease;  
 }
 
-button:hover {
+.icon:hover {
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.4); 
   transform: translateY(-2px); 
 
-button:active {
+.icon:active {
   transform: translateY(0);  
 }

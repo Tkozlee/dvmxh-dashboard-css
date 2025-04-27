@@ -682,3 +682,7 @@ body.dark_mode .kt-portlet {
 .custom-control input[type="checkbox"]:checked::after {
   opacity: 1;
 }
+body.dark_mode .close {
+  color: #fff; 
+  text-shadow: 0 1px 0 #fff; 
+}

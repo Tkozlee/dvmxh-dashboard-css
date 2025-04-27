@@ -618,3 +618,10 @@ body.dark_mode #kt_header_mobile
 {
     background-color: #161616;
 } 
+.notify-image, .feed-image {
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  cursor: pointer;
+}
+

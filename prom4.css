@@ -686,3 +686,9 @@ body.dark_mode .close {
   color: #fff; 
   text-shadow: 0 1px 0 #fff; 
 }
+
+body.dark_mode .btn-secondary {
+    background-color: #363636;
+    border: 1px solid #fff;
+    color: #fff;
+}

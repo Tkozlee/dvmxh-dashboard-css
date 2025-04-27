@@ -692,3 +692,13 @@ body.dark_mode .btn-secondary {
     border: 1px solid #fff;
     color: #fff;
 }
+body.dark_mode .swal2-popup {
+  background-color: #363636;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+body.dark_mode .swal2-success-circular-line-left,
+body.dark_mode .swal2-success-circular-line-right,
+body.dark_mode .swal2-success-fix {
+  background-color: #363636 !important;
+}
